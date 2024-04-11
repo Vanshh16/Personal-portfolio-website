@@ -15,95 +15,81 @@ function POR() {
           <Col>
             <div>
               <h2>Experience</h2>
-              <Row className="col-center">
-                <Col xs={12} md={6} xl={4}>
-                  <div className="por-box">
-                    <img src={codebase} alt=""></img>
-                    <div className="por-details-box">
-                      <h2>IIIT Kota CodeBase</h2>
-                      <h4>Web Development Lead</h4>
-                      <span>September,2023 - present</span>
-                    </div>
-                    <p>
-                      {" "}
-                      IIIT CodeBase serves as a repository for coding projects,
-                      resources, and collaborative development efforts within
-                      the IIIT Kota community.
-                    </p>
+              <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-3">
+                <div className="por-box tw-mx-auto">
+                  <img src={codebase} alt=""></img>
+                  <div className="por-details-box">
+                    <h2>IIIT Kota CodeBase</h2>
+                    <h4>Web Development Lead</h4>
+                    <span>September,2023 - present</span>
                   </div>
-                </Col>
-                <Col xs={12} md={6} xl={4}>
-                  <div className="por-box">
-                    <img src={htc} alt=""></img>
-                    <div className="por-details-box">
-                      <h2>HackTheChain 2.0</h2>
-                      <h4>Organizing Team</h4>
-                      <span>December, 2023 - February, 2024</span>
-                    </div>
-                    <p>
-                      {" "}
-                      The HackTheChain 2.0 organizing team, experts in
-                      technology and event management, orchestrates every aspect
-                      of the hackathon, from securing sponsors to curating
-                      challenges, ensuring a seamless experience for all
-                      participants.
-                    </p>
+                  <p>
+                    {" "}
+                    IIIT CodeBase serves as a repository for coding projects,
+                    resources, and collaborative development efforts within the
+                    IIIT Kota community.
+                  </p>
+                </div>
+                <div className="por-box tw-mx-auto">
+                  <img src={htc} alt=""></img>
+                  <div className="por-details-box">
+                    <h2>HackTheChain 2.0</h2>
+                    <h4>Organizing Team</h4>
+                    <span>December, 2023 - February, 2024</span>
                   </div>
-                </Col>
-                <Col xs={12} md={6} xl={4}>
-                  <div className="por-box">
-                    <img src={moodi} alt=""></img>
-                    <div className="por-details-box">
-                      <h2>Mood Indigo IIT-B</h2>
-                      <h4>Contingent Leader</h4>
-                      <span>December, 2023</span>
-                    </div>
-                    <p>
-                      {" "}
-                      The Mood Indigo Contingent Leader coordinates their
-                      college group's participation, ensuring a smooth
-                      experience and fostering team spirit at India's largest
-                      cultural festival.
-                    </p>
+                  <p>
+                    {" "}
+                    The HackTheChain 2.0 organizing team, experts in technology
+                    and event management, orchestrates every aspect of the
+                    hackathon, from securing sponsors to curating challenges,
+                    ensuring a seamless experience for all participants.
+                  </p>
+                </div>
+                <div className="por-box tw-mx-auto">
+                  <img src={moodi} alt=""></img>
+                  <div className="por-details-box">
+                    <h2>Mood Indigo IIT-B</h2>
+                    <h4>Contingent Leader</h4>
+                    <span>December, 2023</span>
                   </div>
-                </Col>
-                {/* </Row> */}
-                {/* <Row className="col-center"> */}
-                <Col xs={12} md={6} xl={4}>
-                  <div className="por-box">
-                    <img src={sih} alt=""></img>
-                    <div className="por-details-box">
-                      <h2>Smart India Hackathon</h2>
-                      <h4>Team Leader</h4>
-                      <span>September, 2023</span>
-                    </div>
-                    <p>
-                      {" "}
-                      The SIH Team Leader guides and motivates their team,
-                      fostering collaboration and problem-solving during the
-                      event. They oversee communication, task delegation, and
-                      progress tracking, aiming to deliver impactful
-                      technological solutions to real-world challenges.
-                    </p>
+                  <p>
+                    {" "}
+                    The Mood Indigo Contingent Leader coordinates their college
+                    group's participation, ensuring a smooth experience and
+                    fostering team spirit at India's largest cultural festival.
+                  </p>
+                </div>
+                <div className="por-box tw-mx-auto">
+                  <img src={sih} alt=""></img>
+                  <div className="por-details-box">
+                    <h2>Smart India Hackathon</h2>
+                    <h4>Team Leader</h4>
+                    <span>September, 2023</span>
                   </div>
-                </Col>
-                <Col xs={12} md={6} lg={6}>
-                  <div className="por-box">
-                    <img src={comfest} alt=""></img>
-                    <div className="por-details-box">
-                      <h2>Comfest 2020</h2>
-                      <h4>Hackcom Team Lead</h4>
-                      <span>October, 2020</span>
-                    </div>
-                    <p>
-                      {" "}
-                      HackCom, hosted by Comfest is a dynamic event that brings
-                      together coding enthusiasts, innovators, and tech
-                      aficionados for a thrilling hackathon experience.
-                    </p>
+                  <p>
+                    {" "}
+                    The SIH Team Leader guides and motivates their team,
+                    fostering collaboration and problem-solving during the
+                    event. They oversee communication, task delegation, and
+                    progress tracking, aiming to deliver impactful technological
+                    solutions to real-world challenges.
+                  </p>
+                </div>
+                <div className="por-box tw-mx-auto">
+                  <img src={comfest} alt=""></img>
+                  <div className="por-details-box">
+                    <h2>Comfest 2020</h2>
+                    <h4>Hackcom Team Lead</h4>
+                    <span>October, 2020</span>
                   </div>
-                </Col>
-              </Row>
+                  <p>
+                    {" "}
+                    HackCom, hosted by Comfest is a dynamic event that brings
+                    together coding enthusiasts, innovators, and tech
+                    aficionados for a thrilling hackathon experience.
+                  </p>
+                </div>
+              </div>
             </div>
           </Col>
         </Row>

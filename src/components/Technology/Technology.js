@@ -21,74 +21,53 @@ function Technology() {
       <Container>
         <Row>
           <Col>
-          <TrackVisibility>
-          {({isVisible}) => 
-          <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-            <div className="tech-box">
-              <Row>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={html} alt="html"></img>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__zoomIn" : ""
+                  }
+                >
+                  <div className="tech-box tw-grid tw-grid-cols-2 md:tw-grid-cols-3">
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={html} alt="html"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={css} alt="css"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={javascript} alt="javascript"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={react} alt="react"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={redux} alt="redux"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={tailwind} alt="tailwind"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={node} alt="node"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={vite} alt="vite"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={github} alt="github"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={java} alt="java"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={c} alt="c"></img>
+                    </div>
+                    <div className="img-box tw-mx-auto tw-my-5 tw-flex tw-justify-center">
+                      <img src={python} alt="python"></img>
+                    </div>
                   </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={css} alt="css"></img>
-                  </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={javascript} alt="javascript"></img>
-                  </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={react} alt="react"></img>
-                  </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={redux} alt="redux"></img>
-                  </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={tailwind} alt="tailwind"></img>
-                  </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={node} alt="node"></img>
-                  </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={vite} alt="vite"></img>
-                  </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={github} alt="github"></img>
-                  </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={java} alt="java"></img>
-                  </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={c} alt="c"></img>
-                  </div>
-                </Col>
-                <Col xs={6} md={4}>
-                  <div className="img-box">
-                    <img src={python} alt="python"></img>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-            </div>}
+                </div>
+              )}
             </TrackVisibility>
           </Col>
         </Row>

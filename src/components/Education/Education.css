@@ -27,12 +27,12 @@ background: linear-gradient(90deg, rgba(25,0,18,1) 0%, rgba(14,12,23,1) 100%);
 }
 
 .img1 {
-    width: 26%;
+    /* width: 26%; */
     margin-bottom: 30px;
 
   }
 .img2 {
-    width: 30%;
+    /* width: 30%; */
     margin-top: -10px;
     margin-bottom: 30px;
   }

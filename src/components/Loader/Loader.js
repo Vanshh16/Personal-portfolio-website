@@ -4,7 +4,7 @@ import VN from "../../assets/img/vNnobg.png";
 
 function Loader() {
   return (
-    <div className='logo-div'><img src={VN} alt="" className="mylogo" /></div>
+    <div className='logo-div tw-mx-auto'><img src={VN} alt="" className="mylogo tw-mx-auto" /></div>
   )
 }
 

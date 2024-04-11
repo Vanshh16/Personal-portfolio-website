@@ -27,9 +27,9 @@ function Project() {
       description: "It is a user-friendly note-taking tool, allowing effortless creation, organization, and retrieval of notes. Built with the MERN stack, it offers seamless synchronization across devices for enhanced productivity and organization.",
       imgUrl: projImg1,
       tech: {
-        element1: < SiMongodb className="tech-icon mx-1" />,
-        element2: < FaReact className="tech-icon mx-1" />,
-        element3: < FaNodeJs className="tech-icon mx-1" />
+        element1: < SiMongodb className="tech-icon tw-inline tw-mx-1" />,
+        element2: < FaReact className="tech-icon tw-inline tw-mx-1" />,
+        element3: < FaNodeJs className="tech-icon tw-inline tw-mx-1" />
       },
       gitUrl: "https://github.com/Vanshh16/Keep-Notes-App"
     },
@@ -38,9 +38,9 @@ function Project() {
       description: "Our portal simplifies event organization on campus. Users can easily check availability, submit requests, and manage reservations, streamlining administrative tasks and enhancing efficiency for college events.",
       imgUrl: projImg2,
       tech: {
-        element1: < SiTailwindcss className="tech-icon mx-1" />,
-        element2: < FaReact className="tech-icon mx-1" />,
-        element3: < FaNodeJs className="tech-icon mx-1" />
+        element1: < SiTailwindcss className="tech-icon tw-inline tw-mx-1" />,
+        element2: < FaReact className="tech-icon tw-inline tw-mx-1" />,
+        element3: < FaNodeJs className="tech-icon tw-inline tw-mx-1" />
       },
       gitUrl: "https://github.com/ikcb/AuditoriumBooking"
     },
@@ -49,11 +49,12 @@ function Project() {
       description: "The portfolio website offers a sleek showcase of skills and projects, providing a seamless user experience for visitors to explore achievements and contact details effortlessly.",
       imgUrl: projImg3,
       tech: {
-        element1: < FaBootstrap className="tech-icon mx-1" />,
-        element2: < FaReact className="tech-icon mx-1" />,
-        element3: < SiCsswizardry className="tech-icon mx-1" />
+        element1: < FaBootstrap className="tech-icon tw-inline tw-mx-1" />,
+        element2: < FaReact className="tech-icon tw-inline tw-mx-1" />,
+        element3: < SiCsswizardry className="tech-icon tw-inline tw-mx-1" />
       },
-      gitUrl: "https://github.com/Vanshh16"
+      gitUrl: "https://github.com/Vanshh16",
+      liveUrl: "https://vansh-nigam16.netlify.app/"
     },
   ];
 
