@@ -1,0 +1,23 @@
+.logo-div {
+    text-align: center;
+    margin-top: 20rem;
+    height: 100%;
+    width: 100%;
+    background: rgb(25, 0, 18);
+    background: linear-gradient(90deg, rgba(25, 0, 18, 1) 0%, rgba(14, 12, 23, 1) 100%);;
+}
+
+.mylogo {
+    height: 6rem;
+    width: auto;
+    animation: rotation 1.5s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

@@ -1,0 +1,62 @@
+.education {
+    padding: 30px 0;
+    position: relative;
+    background: rgb(25,0,18);
+background: linear-gradient(90deg, rgba(25,0,18,1) 0%, rgba(14,12,23,1) 100%);
+/* background: black; */
+}
+
+.ed-box {
+    background: rgb(8, 1, 6);
+    background: linear-gradient(90deg, rgba(8, 1, 6, 1) 0%, rgba(6, 3, 17, 1) 100%);
+ border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    padding-top: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 20px #650049;
+ 
+}
+.ed-details-box {
+    /* background: #151515; */
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.img1 {
+    width: 26%;
+    margin-bottom: 30px;
+
+  }
+.img2 {
+    width: 30%;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+.education h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.education h4 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.education p {
+    color: #B8B8B8;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 10px auto 30px auto;
+    text-align: center;
+    width: 56%;
+}
+
+
+/* background: rgb(25,0,18);
+background: linear-gradient(90deg, rgba(25,0,18,1) 0%, rgba(14,12,23,1) 100%); */
